@@ -2,7 +2,7 @@ from pyrogram import Client, filters
 from pyrogram.types import Message
 from pydub import AudioSegment
 import os
-from DAXXMUSIC import app
+from RAJPUT import app
 
 
 @app.on_message(filters.command("dj"))
@@ -39,7 +39,7 @@ def apply_bass_boost(audio_path):
     boosted_audio = audio.low_pass_filter(200).high_pass_filter(70).apply_gain(30)
 
     # Save the boosted audio as a temporary file
-    boosted_audio_path = "yumiboost.mp3"
+    boosted_audio_path = "Axiboost.mp3"
     boosted_audio.export(boosted_audio_path, format="mp3")
 
     return boosted_audio_path
