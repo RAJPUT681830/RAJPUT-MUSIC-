@@ -1,17 +1,17 @@
 import requests
 import random
-from DAXXMUSIC import app, userbot
-from DAXXMUSIC.misc import SUDOERS
+from RAJPUT import app, userbot
+from RAJPUT.misc import SUDOERS
 from pyrogram import * 
 from pyrogram.types import *
-from DAXXMUSIC.utils.daxx_ban import admin_filter
+from RAJPUT.utils.daxx_ban import admin_filter
 
 
 
 
 
 
-Yumikoo_text = [
+Axiko_text = [
 "hey please don't disturb me.",
 "who are you",    
 "aap kon ho",
@@ -30,7 +30,7 @@ strict_txt = [
 "are you serious i am not restrict to my friends",
 "fuck you bsdk k mai apne dosto ko kyu kru",
 "hey stupid admin ", 
-"ha ye phele krlo maar lo ek dusre ki gwaand",  
+"ha ye phele krlo maar lo ek dusre ki g",  
 "i can't hi is my closest friend",
 "i love him please don't restict this user try to usertand "
 ]
@@ -57,7 +57,7 @@ async def restriction_app(app :app, message):
     reply = message.reply_to_message
     chat_id = message.chat.id
     if len(message.text) < 2:
-        return await message.reply(random.choice(Yumikoo_text))
+        return await message.reply(random.choice(Axiko_text))
     bruh = message.text.split(maxsplit=1)[1]
     data = bruh.split(" ")
     
@@ -70,7 +70,7 @@ async def restriction_app(app :app, message):
                     await message.reply(random.choice(strict_txt))          
                 else:
                     await app.ban_chat_member(chat_id, user_id)
-                    await message.reply("OK, Ban kar diya madrchod ko sala Chutiya tha !")
+                    await message.reply("OK, Ban kar diya sala Chutiya tha !")
                     
         for unbanned in data:
             print(f"present {unbanned}")
@@ -87,7 +87,7 @@ async def restriction_app(app :app, message):
                 else:
                     await app.ban_chat_member(chat_id, user_id)
                     await app.unban_chat_member(chat_id, user_id)
-                    await message.reply("get lost! bhga diya bhosdi wale ko") 
+                    await message.reply("get lost! bhga diya sale ko") 
                     
         for muted in data:
             print(f"present {muted}") 
