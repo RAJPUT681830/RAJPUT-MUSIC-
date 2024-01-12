@@ -1,12 +1,12 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from DAXXMUSIC import app
-from DAXXMUSIC.misc import SUDOERS
-from DAXXMUSIC.utils.database import add_sudo, remove_sudo
-from DAXXMUSIC.utils.decorators.language import language
-from DAXXMUSIC.utils.extraction import extract_user
-from DAXXMUSIC.utils.inline import close_markup
+from RAJPUT import app
+from RAJPUT.misc import SUDOERS
+from RAJPUT.utils.database import add_sudo, remove_sudo
+from RAJPUT.utils.decorators.language import language
+from RAJPUT.utils.extraction import extract_user
+from RAJPUT.utils.inline import close_markup
 from config import BANNED_USERS, OWNER_ID
 
 
