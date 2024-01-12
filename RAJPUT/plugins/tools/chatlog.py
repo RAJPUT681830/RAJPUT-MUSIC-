@@ -4,14 +4,14 @@ from pyrogram.types import Message
 from pyrogram import filters
 from pyrogram.types import(InlineKeyboardButton, InlineKeyboardMarkup, InputMediaPhoto, InputMediaVideo, Message)
 from config import LOGGER_ID as LOG_GROUP_ID
-from DAXXMUSIC import app  
+from RAJPUT import app  
 
 photo = [
-    "https://telegra.ph/file/1949480f01355b4e87d26.jpg",
-    "https://telegra.ph/file/3ef2cc0ad2bc548bafb30.jpg",
-    "https://telegra.ph/file/a7d663cd2de689b811729.jpg",
-    "https://telegra.ph/file/6f19dc23847f5b005e922.jpg",
-    "https://telegra.ph/file/2973150dd62fd27a3a6ba.jpg",
+    "https://telegra.ph/file/aa34c03c0246eb3950411.jpg",
+    "https://telegra.ph/file/aa34c03c0246eb3950411.jpg",
+    "https://telegra.ph/file/aa34c03c0246eb3950411.jpg",
+    "https://telegra.ph/file/aa34c03c0246eb3950411.jpg",
+    "https://telegra.ph/file/aa34c03c0246eb3950411.jpg",
 ]
 
 
