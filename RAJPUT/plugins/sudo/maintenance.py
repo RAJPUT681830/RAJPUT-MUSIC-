@@ -1,9 +1,9 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from DAXXMUSIC import app
-from DAXXMUSIC.misc import SUDOERS
-from DAXXMUSIC.utils.database import (
+from RAJPUT import app
+from RAJPUT.misc import SUDOERS
+from RAJPUT.utils.database import (
     get_lang,
     is_maintenance,
     maintenance_off,
