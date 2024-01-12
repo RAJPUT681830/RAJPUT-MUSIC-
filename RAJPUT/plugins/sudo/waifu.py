@@ -1,10 +1,10 @@
 from pyrogram import Client, filters
 import requests
-from DAXXMUSIC import app
+from RAJPUT import app
 
 waifu_api_url = 'https://api.waifu.im/search'
 
-# IAM_DAXX
+# IAM_Axiko
 
 def get_waifu_data(tags):
     params = {
