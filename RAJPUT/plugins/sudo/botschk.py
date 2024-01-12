@@ -2,15 +2,15 @@ import asyncio
 import config
 import random
 from pyrogram import filters
-from DAXXMUSIC import app 
-from DAXXMUSIC.core.userbot import Client
-from DAXXMUSIC.misc import SUDOERS
+from RAJPUT import app 
+from RAJPUT.core.userbot import Client
+from RAJPUT.misc import SUDOERS
 
 
 
 
 
-BOT_LIST = ["YumikooBot", "DAXXTEAMBOT"]
+BOT_LIST = ["AxikoBot", "DAXXTEAMBOT"]
 
 
 
@@ -18,7 +18,7 @@ BOT_LIST = ["YumikooBot", "DAXXTEAMBOT"]
 
 @app.on_message(filters.command("botschk") & SUDOERS)
 async def bots_chk(app, message):
-    msg = await message.reply_photo(photo="https://telegra.ph/file/48578068b7574bb25a529.jpg", caption="**ᴄʜᴇᴄᴋɪɴɢ ʙᴏᴛs sᴛᴀᴛs ᴀʟɪᴠᴇ ᴏʀ ᴅᴇᴀᴅ...**")
+    msg = await message.reply_photo(photo="https://telegra.ph/file/aa34c03c0246eb3950411.jpg", caption="**ᴄʜᴇᴄᴋɪɴɢ ʙᴏᴛs sᴛᴀᴛs ᴀʟɪᴠᴇ ᴏʀ ᴅᴇᴀᴅ...**")
     response = "**ʙᴏᴛs sᴛᴀᴛᴜs ᴅᴇᴀᴅ ᴏʀ ᴀʟɪᴠᴇ ᴄʜᴇᴄᴋᴇʀ**\n\n"
     for bot_username in BOT_LIST:
         try:
