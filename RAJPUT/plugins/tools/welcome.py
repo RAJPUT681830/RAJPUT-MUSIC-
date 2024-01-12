@@ -52,13 +52,13 @@ def circle(pfp, size=(500, 500)):
     return pfp
 
 def welcomepic(pic, user, chatname, id, uname):
-    background = Image.open("DAXXMUSIC/assets/wel2.png")
+    background = Image.open("RAJPUT/assets/wel2.png")
     pfp = Image.open(pic).convert("RGBA")
     pfp = circle(pfp)
     pfp = pfp.resize((825, 824))
     draw = ImageDraw.Draw(background)
-    font = ImageFont.truetype('DAXXMUSIC/assets/font.ttf', size=110)
-    welcome_font = ImageFont.truetype('DAXXMUSIC/assets/font.ttf', size=60)
+    font = ImageFont.truetype('RAJPUT/assets/font.ttf', size=110)
+    welcome_font = ImageFont.truetype('RAJPUT/assets/font.ttf', size=60)
     draw.text((2100, 1420), f'ID: {id}', fill=(12000, 12000, 12000), font=font)
     pfp_position = (1990, 435)
     background.paste(pfp, pfp_position, pfp)
@@ -139,7 +139,7 @@ Iᴅ ✧ {user.id}
 Usᴇʀɴᴀᴍᴇ ✧ @{user.username}
 ➖➖➖➖➖➖➖➖➖➖➖➖**
 """,
-            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(f"⦿ ᴀᴅᴅ ᴍᴇ ⦿", url=f"https://t.me/YumikooBot?startgroup=true")]])
+            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(f"⦿ ᴀᴅᴅ ᴍᴇ ⦿", url=f"https://t.me/AxikoBot?startgroup=true")]])
         )
     except Exception as e:
         LOGGER.error(e)
