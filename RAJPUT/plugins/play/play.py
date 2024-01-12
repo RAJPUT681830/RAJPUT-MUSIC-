@@ -6,14 +6,14 @@ from pyrogram.types import InlineKeyboardMarkup, InputMediaPhoto, Message
 from pytgcalls.exceptions import NoActiveGroupCall
 
 import config
-from DAXXMUSIC import Apple, Resso, SoundCloud, Spotify, Telegram, YouTube, app
-from DAXXMUSIC.core.call import DAXX
-from DAXXMUSIC.utils import seconds_to_min, time_to_seconds
-from DAXXMUSIC.utils.channelplay import get_channeplayCB
-from DAXXMUSIC.utils.decorators.language import languageCB
-from DAXXMUSIC.utils.decorators.play import PlayWrapper
-from DAXXMUSIC.utils.formatters import formats
-from DAXXMUSIC.utils.inline import (
+from RAJPUT import Apple, Resso, SoundCloud, Spotify, Telegram, YouTube, app
+from RAJPUT.core.call import RAJPUT
+from RAJPUT.utils import seconds_to_min, time_to_seconds
+from RAJPUT.utils.channelplay import get_channeplayCB
+from RAJPUT.utils.decorators.language import languageCB
+from RAJPUT.utils.decorators.play import PlayWrapper
+from RAJPUT.utils.formatters import formats
+from RAJPUT.utils.inline import (
     botplaylist_markup,
     livestream_markup,
     playlist_markup,
