@@ -1,4 +1,4 @@
-from DAXXMUSIC import app
+from RAJPUT import app
 from pyrogram import filters
 from pyrogram.enums import ParseMode
 
